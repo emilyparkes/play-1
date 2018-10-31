@@ -1,0 +1,23 @@
+{
+  "name": "play-1",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilyparkes/play-1.git"
+  },
+  "author": " <emilycoco@me.com>",
+  "license": "MIT",
+  "description": "Portfolio website to advertise myself and display my work and to play around with.",
+  "bugs": {
+    "url": "https://github.com/emilyparkes/play-1/issues"
+  },
+  "homepage": "https://github.com/emilyparkes/play-1#readme",
+  "scripts": {
+    "start": "node server/index"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
