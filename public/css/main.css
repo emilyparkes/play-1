@@ -941,13 +941,13 @@
      bottom: 50%;
    }
    .work-item-link:hover .work-item-img{
-     /*
+     
      -webkit-transform: scale(1.08);
      -moz-transform: scale(1.08);
      -o-transform: scale(1.08);
      -ms-transform: scale(1.08);
      transform: scale(1.08);
-     */
+    
    }
    
    /*
