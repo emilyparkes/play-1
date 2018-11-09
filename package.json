@@ -14,11 +14,16 @@
   },
   "homepage": "https://github.com/emilyparkes/play-1#readme",
   "scripts": {
-    "start": "node server/index"
+    "start": "node server/index",
+    "dev": "nodemon server/index --watch"
   },
   "dependencies": {
     "express": "^4.16.4",
+    "fullpage.js": "^3.0.3",
     "jquery": "^3.3.1",
     "normalize.css": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
   }
 }
