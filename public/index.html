@@ -7,16 +7,22 @@
   <title>Emily Coco Parkes</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="css/split.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.3/fullpage.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.3/fullpage.css"></script>
-  <script src="./js/fullpage.js"></script>
+
+  <script>
+    $(function () {
+      $.scrollify({
+        section: ".section-class-name",
+        sectionName: "section-works"
+      })
+    })
+  </script>
 </head>
 
 <body>
   <div id="fullpage">
 
-    <div class="section">
-      
+    <div class="section-class-name" data-section-name="home">
+
       <div class="split left">
         <div class="centered">
           <img src="img_avatar2.png" alt="Avatar woman">
@@ -33,11 +39,13 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="section">
-      <div class="slide" data-anchor="slide1">Two 1</div>
-      <div class="slide" data-anchor="slide2">Two 2</div>
-    </div>
+  <div class="section-class-name" data-section-name="works">
+    <div class="slide" data-anchor="slide1">Two 1</div>
+    <div class="slide" data-anchor="slide2">Two 2</div>
+  </div>
+  </div>
 
   </div>
 </body>
