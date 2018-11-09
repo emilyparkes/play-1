@@ -10,7 +10,7 @@ It's main purpose is to play with a few technologies and see what I can create.
 1. Fork and clone down the repo.
 
 ```shell
- git clone CLONE_URL
+ git clone https://github.com/emilyparkes/play-1.git
  cd play-1
   ```
   2. Install packages and run the server.
